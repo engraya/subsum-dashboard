@@ -1,7 +1,7 @@
 import { Outlet, useLocation } from "react-router";
 import Header from "../Header/Header";
 import { useEffect, useState } from "react";
-import Sidenav from "../sideNav/Sidenav";
+import Sidenav from "../SideNav/Sidenav";
 
 function Main() {
   const [showSideBar, setShowSideBar] = useState(false);
